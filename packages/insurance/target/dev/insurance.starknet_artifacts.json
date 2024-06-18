@@ -1,0 +1,1 @@
+{"version":1,"contracts":[{"id":"8macab60nnkfk","package_name":"insurance","contract_name":"test_component","module_path":"insurance::test_component","artifacts":{"sierra":"insurance_test_component.contract_class.json","casm":null}}]}
