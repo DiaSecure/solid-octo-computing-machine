@@ -1,0 +1,11 @@
+[package]
+name = "components"
+version.workspace = true
+edition = '2023_11'
+
+[lib]
+
+[dependencies]
+starknet.workspace = true
+
+[[target.starknet-contract]]

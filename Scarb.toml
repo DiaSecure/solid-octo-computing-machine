@@ -1,0 +1,24 @@
+[workspace]
+members = [
+  "protocol/*",
+]
+
+[workspace.tool.snforge]
+
+[workspace.dependencies]
+starknet = ">=2.6.3"
+openzeppelin = { git = "https://github.com/OpenZeppelin/cairo-contracts.git", tag="v0.11.0" }
+snforge_std = { git = "https://github.com/foundry-rs/starknet-foundry.git", tag = "v0.24.0" }
+components = { path = "protocol/components" }
+
+
+[workspace.package]
+description = "DiaSecure"
+repository = "https://github.com/DiaSecure/solid-octo-computing-machine"
+homepage = "https://github.com/DiaSecure"
+license = "MIT"
+authors = ["0xchromatin"]
+version = "0.1.0"
+
+[tool]
+snforge.workspace = true

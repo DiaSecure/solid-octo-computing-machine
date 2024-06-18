@@ -1,0 +1,15 @@
+[package]
+name = "epr"
+version.workspace = true
+edition = '2023_11'
+
+[lib]
+
+[dependencies]
+starknet.workspace = true
+snforge_std.workspace = true
+openzeppelin.workspace = true
+components.workspace = true
+
+
+[[target.starknet-contract]]
